@@ -1,0 +1,69 @@
+html {
+  font-size: 16px; }
+
+body {
+  background: #034978;
+  font-family: "Open Sans", sans-serif;
+  color: #fafafa;
+  font-size: 22.4px; }
+
+header {
+  margin: 0 0 8px; }
+  header h1 {
+    font-size: 32px;
+    padding: 16px 0 0; }
+
+.modal {
+  color: #034978; }
+
+.rating {
+  font-size: 24px;
+  color: #ffca28; }
+
+.cell {
+  width: 23%;
+  margin: 1%;
+  position: relative;
+  float: left; }
+  .cell .memory-card {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    color: #067fb9;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+    cursor: pointer; }
+    .cell .memory-card figure {
+      margin: 0;
+      display: block;
+      width: 100%;
+      height: 100%;
+      font-size: 32px;
+      border-radius: 6px;
+      position: absolute;
+      text-align: center;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden; }
+    .cell .memory-card .front {
+      background: #067fb9; }
+    .cell .memory-card .back {
+      background: #fafafa;
+      transform: rotateY(180deg); }
+  .cell .memory-card.flipped,
+  .cell .memory-card.matched {
+    transform: rotateY(180deg); }
+  .cell .memory-card.matched {
+    cursor: default;
+    color: #4ead26; }
+
+.restart,
+.pause {
+  cursor: pointer; }
+
+@media screen and (max-width: 767px) {
+  .cell .memory-card {
+    line-height: 100px; }
+    .cell .memory-card figure {
+      font-size: 24px; } }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Memory Game</title>
+		<!-- jQuery -->
+		<script src="js/jquery.min.js"></script>
+		<!-- jQuery UI -->
+		<script src="js/jquery-ui.min.js"></script>
+		<!-- PopperJS & Bootstrap 4 (Beta) -->
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<!-- Google Fonts (Open Sans) -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<!-- Font Awesome -->
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+<body class="container">
+	<div class="row">
+		<div class="col-11 col-md-8 ml-auto mr-auto">
+			<header class="row">
+				<h1 class="col-12 text-center">Memory Game</h1>
+				<div class="col-10">
+					<span class="pause"><i class="fa fa-pause"></i></span>
+					&nbsp;Time:&nbsp;<span class="timer"></span>s<br>
+				</div>
+				<div class="col-2 text-right">
+					<i class="fa fa-refresh restart"></i>
+				</div>
+			</header>
+			<section class="row" id="game">
+				<!-- Cards are generated here -->
+			</section>
+			<div class="row">
+				<div class="col-6">
+					Turns:&nbsp;<span class="turns"></span>
+				</div>
+				<div class="col-6 text-right">
+					<span class="rating"></span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Congratulations!</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<p>
+					You won in <span class="timer"></span> seconds and <span class="turns"></span> turns.<br>
+					Your rating is <span class="rating"></span>
+				</p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				<button type="button" class="btn btn-primary restart">Play again</button>
+			</div>
+			</div>
+		</div>
+		</div>
+	<script src="js/app.js"></script>
+</body>
+</html>
