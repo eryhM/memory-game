@@ -26,7 +26,7 @@ The rating is as follow:
 
 ### Dependencies
 
-* jQuery (v3.2.1)
-* jQuery UI (v1.12.1), which only includes the effects core and the shake effect.
-* Bootstrap (v4.0.0 Beta), which requires Popper.js
-* Font Awesome (v4.7.0) for all icons and symbols used in the game.
+* [jQuery v3.2.1](https://jquery.com/)
+* [jQuery UI v1.12.1](https://jqueryui.com/), which only includes the effects core and the shake effect.
+* [Bootstrap v4.0.0 Beta](https://getbootstrap.com/), which requires [Popper.js](https://popper.js.org/)
+* [Font Awesome v4.7.0](https://fontawesome.io/) for all icons and symbols used in the game.
