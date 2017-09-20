@@ -252,7 +252,7 @@
 	$('#game').on('click', '.memory-card', function(e)
 	{
 		// Player may only flip two hidden cards at a time
-		if(!$(this).hasClass('flipped') && activeCards.length < 2 && !isStarting && !paused)
+		if(!$(this).hasClass('flipped') && !$(this).hasClass('matched') && activeCards.length < 2 && !isStarting && !paused)
 			flipCard($(this), 'up');
 	});
 
