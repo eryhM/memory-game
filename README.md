@@ -1,7 +1,8 @@
 # Memory Game
 
 The game board that consists of sixteen cards arranged in a grid.
-The deck is made up of eight different pairs of cards, each with different symbols on one side.The cards are arranged randomly on the grid with the symbol face down.
+The deck is made up of eight different pairs of cards, each with different symbols on one side.
+The cards are arranged randomly on the grid with the symbol face down.
 The gameplay rules are very simple: flip over two hidden cards at a time to locate the ones that match!
 
 ### How to play
@@ -28,5 +29,5 @@ The rating is as follow:
 
 * [jQuery v3.2.1](https://jquery.com/)
 * [jQuery UI v1.12.1](https://jqueryui.com/), which only includes the effects core and the shake effect.
-* [Bootstrap v4.0.0 Beta](https://getbootstrap.com/), which requires [Popper.js](https://popper.js.org/)
+* [Bootstrap v4.0.0 Beta](https://getbootstrap.com/), which requires [Popper.js](https://popper.js.org/).
 * [Font Awesome v4.7.0](https://fontawesome.io/) for all icons and symbols used in the game.
